@@ -1,12 +1,26 @@
-# React + Vite
+you need to create a file in the backend root directory called .env and write there the following information:
+PORT=3000
+API_KEY=
+MONGO_URI=
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+open terminal and run:
+cd backend
+npm install
+node server.js
 
-Currently, two official plugins are available:
+if successful, you should see:
+"server running on port 3000
+MongoDB Connected"
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+you need to do the backend first before you run the front
 
-## Expanding the ESLint configuration
+now, open another terminal and run:
+npm run dev
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+if the front is not working, run:
+Remove-Item -Recurse -Force node_modules
+Remove-Item -Force package-lock.json
+npm install
+npm run dev
+
+
