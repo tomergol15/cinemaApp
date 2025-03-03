@@ -15,6 +15,7 @@ MongoDB Connected"
 you need to do the backend first before you run the front
 
 now, open another terminal and run:
+npm install
 npm run dev
 
 if the front is not working, run:
