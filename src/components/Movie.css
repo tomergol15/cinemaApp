@@ -1,0 +1,42 @@
+.movies-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap:0.5rem;
+}
+
+.movie-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1.2rem;
+    width: 14.75rem;
+    text-align: center;
+    background-color: #eee0e0;
+    box-shadow: 0.125rem 0.125rem 0.6rem rgba(0, 0, 0, 0.1);
+  }
+  
+  .movie-image {
+    width: 100%;
+    border-radius: 0.5rem;
+  }
+  
+  .showtimes {
+    margin-top: 0.625rem;
+  }
+  
+  .showtime-button {
+    margin: 0.3rem;
+    padding: 0.3rem 0.625rem;
+    border: none;
+    background-color: #ff5733;
+    color: white;
+    border-radius: 0.3rem;
+    cursor: pointer;
+  }
+  
+  .showtime-button:hover {
+    background-color: #ff2e00;
+  }
+  
+  
+  

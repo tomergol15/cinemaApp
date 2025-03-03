@@ -1,0 +1,27 @@
+
+.showtime-button.selected {
+    background: orange;
+    color: white;
+}
+
+.seats-container {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 5px;
+    margin: 10px 0;
+}
+
+.seat.taken {
+    background: red;
+    cursor: not-allowed;
+}
+
+.seat.selected {
+    background: blue;
+    color: white;
+}
+
+.book-button {
+    background: green;
+    color: white;
+}
